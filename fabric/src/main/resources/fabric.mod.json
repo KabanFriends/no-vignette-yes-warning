@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "no_vignette_yes_warning",
+  "version": "${version}",
+  "name": "No Vignette Yes Warning",
+  "description": "Remove the vignette effect, but keep the world border warning!",
+  "authors": [
+    "KabanFriends"
+  ],
+  "contact": {
+    "sources": "https://github.com/KabanFriends/no-vignette-yes-warning",
+    "issues": "https://github.com/KabanFriends/no-vignette-yes-warning/issues"
+  },
+  "license": "LGPL-3.0",
+  "icon": "icon.png",
+  "environment": "client",
+  "mixins": [
+    "no-vignette.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.20"
+  }
+}
